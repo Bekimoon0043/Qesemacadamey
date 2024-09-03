@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+.navbar{
+    background-color: #124076;
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 100px;
+    margin: -15px 0px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    transition: all 0.2s ease;
+}
+
+.navbar-nav li a:hover{
+    color: aqua !important;
+    transform: scale(1.02);
+}
+.dropdown-menu .dropdown-item{
+    background: #124076;
+}
+.menu-png{
+    height: 30px;
+}
+.exam-header{
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-style: normal;
+    padding-bottom: 20px;
+    
+}
+.Qesem{
+      font-weight: 700;
+        padding-top: 70px;
+        font-size: 80px;
+       color: #124076; 
+      
+}
+.Qesem-description{
+  font-size: 40px;
+  color: #124076;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+.Qesem-imperative p{
+    font-size: 30px;
+     line-height: 10px;
+    color: #124076;
+  font-weight: 200;
+  font-style: normal;
+}
+.exam-choice{
+    background-color: #124076;
+
+    font-family: "IBM Plex Serif", serif;
+
+}
+.course-choice{
+    padding-top:100px;
+    color: #fff;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 50px;
+}
+.exam-paper {
+    border-radius: 50px;
+    margin-left: 160px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    transition: all 0.6s ease;
+}
+.exam-paper:hover{
+  transform: scale(1.12)
+}
+@media (max-width: 768px){
+ .exam-paper{
+   width: 170px;
+   margin-top: -100px;
+   border-radius: 20px;
+   margin-left: 230px;
+ }
+ .course-choice{
+   font-size: 30px;
+ }
+.choice{
+  width: 100px;
+}
+}
+.choice{
+    background: #007D4F;
+    color: #fff;
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 400ms ease;
+  }
+  .choice:hover{
+    background: #FFD376;
+    color: #000;
+    transform: scale(1.11);
+}
+.C-l{
+  color: #fff;
+  font-size: 24px;
+}
+.choice a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+#logicnt{
+  margin-top: 100x;
+}
+#readbtn{
+  background: #007D4F;
+    color: #fff;
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    margin-top: 20px;
+    margin: 30px;
+    transition: all 400ms ease;
+}
+#readbtn:hover{
+  background: #FFD376;
+  color: #000;
+  transform: scale(1.11);
+}
+.logicnotes{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
