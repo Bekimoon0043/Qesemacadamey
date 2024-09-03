@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+.navbar{
+    background-color: #124076;
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 100px;
+    margin: -15px 0px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    transition: all 0.2s ease;
+}
+.learn{
+
+  background: #007D4F;
+
+  color: #fff;
+  width: 150px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 30px;
+  transition: all 400ms ease;
+}
+.learn:hover{
+  background: #FFD376;
+  color: #000;
+}
+.navbar-nav li a:hover{
+    color: aqua !important;
+    transform: scale(1.02);
+}
+.dropdown-menu .dropdown-item{
+    background: #124076;
+}
+.menu-png{
+    height: 30px;
+}
+.carouselExampleDark{
+    height: 200px;
+}
+.note-area{
+    margin-top: 150px;
+    font-weight: 800;
+    font-family: "Montserrat";
+}
+.imagearea{
+    margin-top: 100px;
+    transition: all 0.3s ease;
+}
+.imagearea:hover{
+    transform: scale(1.1);
+}
+.imagearea img{
+    border: none;
+    border-radius: 25px;
+    
+}
+.div{
+    height: 100px;
+}
+.ourservices{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.slider-item {
+    margin-top: 100px;
+    background-color: #124076;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+.slider-item img {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    align-self: center;
+    filter: drop-shadow(26px 23px 26px #000000);
+    transition: all 0.3s ease;
+}
+.slider-item img:hover{
+    transform: scale(1.2);
+}
+.onlinetut{
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .slider-item{
+        margin-top: 60px;
+        padding: 20px;
+    }
+    .slider-item img{
+        border: 0;
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .onlinetut{
+        color: #fff;
+        font-size: 22px;
+        padding: 10px;
+        margin: 0px;
+        
+    }
+    .note-area{
+        margin-top: 50px;
+        font-weight: 500;
+    }
+    .ourservices{
+        margin-top: 15px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .title{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+}
+.contactus{
+    align-items: center;
+    text-align: center;
+    object-position: center;
+}
+h1{
+  
+  font-weight: 700;
+}
+p{
+  color: #000;
+  font-size: 15px;
+  line-height: 15px;
+}
+.mefekir{
+  color: #124076;
+  font-size: 16px;
+}
