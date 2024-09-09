@@ -141,9 +141,10 @@ h1{
   font-weight: 700;
 }
 p{
-  color: #000;
-  font-size: 15px;
-  line-height: 15px;
+  color: #000000;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 440;
 }
 .mefekir{
   color: #124076;
