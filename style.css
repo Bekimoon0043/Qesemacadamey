@@ -22,22 +22,14 @@
     font-optical-sizing: auto;
     transition: all 0.2s ease;
 }
-.learn{
-
+.custom-btn-2 .btn{
   background: #007D4F;
-
   color: #fff;
-  width: 150px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  outline: none;
-  margin-top: 30px;
   transition: all 400ms ease;
 }
-.learn:hover{
+.custom-btn-2 .btn:hover{
   background: #FFD376;
-  color: #000;
+  color: #000000;
 }
 .navbar-nav li a:hover{
     color: aqua !important;
@@ -156,4 +148,9 @@ p{
 .mefekir{
   color: #124076;
   font-size: 16px;
+}
+.custom-btn-2 .dropdown-item{
+  background: #124076;
+  color: white;
+  font-weight: 700;
 }
