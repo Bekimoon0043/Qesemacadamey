@@ -155,3 +155,10 @@ p{
   color: white;
   font-weight: 700;
 }
+table {
+  background-color: white;
+}
+th {
+  background-color: #007bff;
+  color: white;
+}
